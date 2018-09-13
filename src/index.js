@@ -15,4 +15,11 @@ formSubmit.addEventListener("submit", event => {
 });
 
 
+const textInput = document.querySelector("#messagebox");
+let counter = document.querySelector("#countTarget");
+let currentCount  = 280;
 
+textInput.addEventListener("input", event => {
+    currentCount-- 
+    counter.textContent = currentCount;
+})
