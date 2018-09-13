@@ -1,0 +1,7 @@
+/* ----------- Tweeter styles ----------- */
+.tform--textarea {width: 50%}
+.tweet--area {
+    border: 1px solid black;
+    padding: 2rem;
+    height: 200px;
+}
