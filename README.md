@@ -12,7 +12,7 @@ For this small pair project. We are going to create a reduced version of the twi
 ## Stretch goals
 
 - [X] Add a character counter underneath the `textarea` which should update every time the content of `textarea` changes. A good way to do it is by setting a `input` event listener on the `textarea`. The `event` object passed to the event listener will have the `textarea` as the `event.target` property. We can then pull out the contents of the `textarea` by using the `event.target.value`.
-- [ ] When `textarea` content goes over 280 characters, display the counter in red. When the contents go back below 280 set it back to default colour. Prevent tweets from being posted when character limit is over 280 characters.
+- [X] When `textarea` content goes over 280 characters, display the counter in red. When the contents go back below 280 set it back to default colour. Prevent tweets from being posted when character limit is over 280 characters.
 - [ ] Add a delete icon to each tweet. On click, it should remove the corresponding tweet from the timeline.
 - [ ] A Twitter handle starts with an `@` symbol and can only contain alpha-numeric characters. When posting a new tweet to the timeline, turn handles into links. for example if a tweet contains @dmitrigrabov it should be turned into `<a href="/dmitrigrabov">@dmitrigrabov</a>`.
 

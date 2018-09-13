@@ -17,9 +17,12 @@ formSubmit.addEventListener("submit", event => {
 
 const textInput = document.querySelector("#messagebox");
 let counter = document.querySelector("#countTarget");
-let currentCount  = 280;
+let currentCount  = 50;
 
 textInput.addEventListener("input", event => {
     currentCount-- 
     counter.textContent = currentCount;
+     if (currentCount < 0 ) {
+        counter.style.color = "red"
+     }
 })
